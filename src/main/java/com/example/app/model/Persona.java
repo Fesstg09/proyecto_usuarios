@@ -9,7 +9,21 @@ public class Persona {
 	private String dni;
 	private String telefono;
 	private String correo;
-	
+
+	public Persona() { }
+
+    public Persona(String nombre, String apellidoPaterno, String apellidoMaterno, int edad, String dni, String telefono,
+            String correo) {
+        super();
+        this.nombre = nombre;
+        this.apellidoPaterno = apellidoPaterno;
+        this.apellidoMaterno = apellidoMaterno;
+        this.edad = edad;
+        this.dni = dni;
+        this.telefono = telefono;
+        this.correo = correo;
+    }
+    
 	public String getNombre() {
 		return nombre;
 	}
